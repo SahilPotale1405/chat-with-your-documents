@@ -23,7 +23,6 @@ Upload any PDF (notes, reports, research papers) and ask questions about it in p
 4. **Retrieval** — When a question is asked, it's embedded the same way, and the most semantically similar chunks are retrieved from ChromaDB.
 5. **Generation** — Retrieved chunks + the question are passed to a prompt template and sent to a hosted LLM (**Groq's `openai/gpt-oss-20b`**) via LangChain's LCEL chains, generating a grounded, context-aware answer.
 
-6. 
 ---
 
 ## 🛠️ Tech Stack
@@ -62,7 +61,6 @@ Upload any PDF (notes, reports, research papers) and ask questions about it in p
 
 3. Get a free Groq API key from [console.groq.com](https://console.groq.com), then create a `.env` file in the project root:
 
-4. 
 4. Run the app:
 ```bash
    streamlit run app.py
